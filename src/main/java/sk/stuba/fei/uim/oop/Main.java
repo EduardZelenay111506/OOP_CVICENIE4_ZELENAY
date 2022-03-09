@@ -1,13 +1,14 @@
 package sk.stuba.fei.uim.oop;
+import sk.stuba.fei.uim.oop.Zvierata.Macka;
+import sk.stuba.fei.uim.oop.Zvierata.Pes;
 
-import sk.stuba.fei.uim.oop.kontakty.Absolvent;
-import sk.stuba.fei.uim.oop.kontakty.Kontakt;
 
 public class Main {
     public static void main(String[] args) {
-        var student = new Kontakt("Tomas","Kovacik");
-        var absolvent = new Absolvent("Ing","Janko","Hrasko");
-        System.out.println(student.toString());
-        System.out.println(absolvent.toString());
+        var dunco = new Pes("dunco");
+        var garfield = new Macka("Garfield");
+
+        dunco.pohladkat();
+        garfield.pohladkat();
     }
 }
