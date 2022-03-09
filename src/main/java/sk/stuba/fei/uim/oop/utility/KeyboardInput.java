@@ -9,6 +9,7 @@ import java.util.function.Supplier;
 
 public class KeyboardInput {
 
+
     public static final String INPUT_FAILURE_TEXT = "Your input has failed. Please try again!";
     public static final int INFINITE_TRIES = Integer.MAX_VALUE;
     public static final String[] TRUE_INPUTS = {"y", "yes", "true", "1", "ano", "áno"};

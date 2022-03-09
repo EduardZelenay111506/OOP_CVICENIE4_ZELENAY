@@ -3,6 +3,11 @@ package sk.stuba.fei.uim.oop.utility;
 import java.io.*;
 
 public class ZKlavesnice {
+    /**
+     * funkcia ktora nacita znak od uzivatela z klavesnice
+     * @param napis_pre_uzivatela - Vypis ktory sa pred nacitanim vypise uzivatelovi
+     * @return vracia nacitany znak
+     */
 
     public static char readChar(String napis_pre_uzivatela) {
         char c = ' ';
@@ -18,6 +23,12 @@ public class ZKlavesnice {
 
         return c;
     }
+
+    /**
+     * funkcia ktora nacita retazec od uzivatela z klavesnice
+     * @param napis_pre_uzivatela - Vypis ktory sa pred nacitanim vypise uzivatelovi
+     * @return vracia nacitany retazec
+     */
 
     public static String readString(String napis_pre_uzivatela) {
         String s = "";
