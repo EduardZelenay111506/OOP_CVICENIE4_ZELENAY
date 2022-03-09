@@ -1,6 +1,6 @@
 package sk.stuba.fei.uim.oop.Zvierata;
 
-public abstract class Zviera {
+public abstract class Zviera implements Behanie {
     protected String meno;
 
     public abstract void zvukZvierata();

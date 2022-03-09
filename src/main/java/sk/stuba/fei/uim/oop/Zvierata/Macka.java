@@ -9,4 +9,9 @@ public class Macka extends Zviera {
     public void zvukZvierata() {
         System.out.println("Mnau Mnau");
     }
+
+    @Override
+    public void behaj() {
+        System.out.println("");
+    }
 }
